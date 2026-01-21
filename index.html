@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HorariosDeEstudos</title>
+  <link rel="stylesheet" href="horaio.css">
+  <script src="horario.js" defer></script>
+</head>
+
+<body>
+  <h1 class="media">Preguiça</h1>
+  <div class="none">
+    <h1>Marca Horário</h1>
+    <div class="mestre">
+      <div class="extra">
+        <h2>Informações Extras</h2>
+        <p>Total de Horas:</p>
+        <p class="totalhoras">00:00</p>
+        <p>Dias Restantes:</p>
+        <p class="totaldias">30</p>
+        <p>hambúrgueres Para Leticia:</p>
+        <p class="leticia">0</p>
+        <p>hambúrgueres Para Roberth</p>
+        <p class="roberth">0</p>
+        <button class="reset">Reset</button>
+      </div>
+      <div class="quadro" id="container-horas"></div>
+    </div>
+  </div>
+  <script type="module">
+    // firebase inicializado
+    window.db = db;
+    window.ref = ref;
+    window.set = set;
+    window.onValue = onValue;
+  </script>
+
+</body>
+
+</html>
